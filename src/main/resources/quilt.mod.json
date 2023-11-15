@@ -1,25 +1,25 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "mass_reg_lib",
+		"id": "mass_reg_lib",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "MassRegLib",
+			"description": "Registers lots of items!",
 			"contributors": {
-				"Your name here": "Owner"
+				"Your name here": "884"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"homepage": "wip",
+				"issues": "wip",
+				"sources": "wip"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/mass_reg_lib/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "mass_reg_lib.MassRegLib"
 		},
 		"depends": [
 			{
@@ -36,5 +36,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "mass_reg_lib.mixins.json"
 }
